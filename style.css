@@ -1,0 +1,91 @@
+/*
+Theme Name: Side Comments
+Description: Theme to display comments to the side
+Author: Patrick Murray-John
+Template: twentyten
+*/
+
+@import url("../twentyten/style.css");
+
+@import url("./css/smoothness/jquery-ui-1.8.6.custom.css");
+
+.entry-content {
+  clear: none;
+}
+
+.entry-content > li {
+  list-style: none;
+
+}
+
+#entry-author-info {
+  clear: none;
+}
+
+#main {
+    width: 900px;
+    float: left;
+}
+
+#comments {
+    width: 400px;
+		list-style: none;
+    float: right;
+    clear: none;
+}
+
+#wrapper {
+    width: 940px;
+}
+
+#container {
+    width: 65%;
+}
+
+#content {
+    margin: 0;
+    width: 80%;
+}
+
+#sidecomments-slider {
+  width: 100px;
+  float: left;
+  height: 250px;
+  margin-right: 10px;
+}
+
+#sidecomments-path {
+  margin: 0;
+  padding: 0;
+  /*text-align: center; */
+  
+}
+
+.sidecomments-path-item {  
+  padding: 5px 0 5px 0;
+  height: 20px;
+  list-style: none;
+  font-size: 8pt;
+  cursor: pointer;
+ /* background-image: url('path-item.png'); */
+  background-position: center;
+  background-repeat: repeat-y;
+  overflow: hidden;  
+}
+
+.sidecomments-highlight {
+	
+	
+}
+
+.sidecomments-item-first {
+  background-image: none;
+  
+
+}
+
+.sidecomments-item-last {
+ background-image: none;
+}
+
+
