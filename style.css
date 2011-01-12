@@ -32,6 +32,9 @@ Template: twentyten
 		list-style: none;
     float: right;
     clear: none;
+		min-height: 400px;
+		max-height: 600px;
+		overflow-y: auto;
 }
 
 #wrapper {
